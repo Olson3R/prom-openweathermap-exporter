@@ -52,7 +52,7 @@ const openweathermap_WindSpeed = new prom.Gauge({
 })
 
 const openweathermap_WindGust = new prom.Gauge({
-  name: 'openweathermap_WinGust',
+  name: 'openweathermap_WindGust',
   help: 'Wind Gust (MPH)',
   labelNames: [
     'name'
